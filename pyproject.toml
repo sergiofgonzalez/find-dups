@@ -4,17 +4,17 @@ version = "0.1.0"
 description = "Simple tool to find duplicate files in a directory tree."
 readme = "README.md"
 authors = [
-    { name = "Sergio F. Gonzalez", email = "sergio.f.gonzalez@gmail.com" }
+    { name = "Sergio F. Gonzalez", email = "sergio.f.gonzalez@gmail.com" },
 ]
 requires-python = ">=3.12"
 dependencies = []
 
 [dependency-groups]
 dev = [
-  "pytest>=9.0.2",
-  "ruff>=0.14.8",
-  "pytest-cov>=7.0.0",
-  "pytest-sugar>=1.1.1",
+    "pytest>=9.0.2",
+    "ruff>=0.14.8",
+    "pytest-cov>=7.0.0",
+    "pytest-sugar>=1.1.1",
 ]
 
 [project.scripts]
@@ -26,7 +26,7 @@ build-backend = "uv_build"
 
 [tool.ruff]
 ignore = [
-  "T201", # Allow print statements
+    "T201", # Allow print statements
 ]
 
 # Enable all rules
