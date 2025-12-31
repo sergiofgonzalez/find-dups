@@ -3,6 +3,7 @@ name = "find-dups"
 version = "0.1.0"
 description = "Simple tool to find duplicate files in a directory tree."
 readme = "README.md"
+license = "MIT"
 authors = [
     { name = "Sergio F. Gonzalez", email = "sergio.f.gonzalez@gmail.com" },
 ]
@@ -19,6 +20,9 @@ dev = [
 
 [project.scripts]
 find-dups = "find_dups.main:main"
+
+[project.urls]
+Repository = "https://github.com/sergiofgonzalez/find-dups"
 
 [build-system]
 requires = ["uv_build>=0.9.15,<0.10.0"]
